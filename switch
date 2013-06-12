@@ -1,0 +1,31 @@
+        switch($type){
+            case 'primary_key' : 
+                return $http_query->getSafePost($name);
+                break;
+            case 'int' :
+                return $http_query->getSafePost($name);
+                break;
+            case 'float' :
+                return $http_query->getSafePost($name);
+                break;
+            case 'timestamp' :
+                return self::genTimestampUsingHttpQuery($name,$http_query);
+                /* TODO */
+                break;
+            case 'clob' :
+                /* TODO */
+                return $http_query->getSafePost($name);
+                break;
+            case 'blob' :
+                /* TODO */
+                return $http_query->getSafePost($name);
+                break;
+            case 'alias' :
+                /* TODO */
+                return $http_query->getSafePost($name);
+                break;
+            case 'text' :
+            default :
+                return $http_query->getSafePost($name);
+                break;
+        }

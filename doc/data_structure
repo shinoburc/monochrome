@@ -1,0 +1,14 @@
+int : 整数
+float : 小数
+
+timestamp 年月日+時分秒
+date : 年月日
+time : 時分秒
+
+text : 可変の短い文字列
+bigtext : 可変の長い文字列
+clob : 2Gの文字列
+
+blob : ファイル
+
+alias : エイリアス、リンク

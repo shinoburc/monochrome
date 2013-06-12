@@ -1,0 +1,2 @@
+read hello
+echo $hello
